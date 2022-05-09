@@ -922,7 +922,7 @@ html, body {
 }
 
 .subpage-hero.overlay:before {
-    background-color: rgba(38,39,45,0.5);
+    background-color: rgba(-80,39,45,0.5);
 }
 
 .subpage-hero .hero-content,
@@ -932,7 +932,7 @@ html, body {
 }
 
 .subpage-hero a:hover {
-    color: #6fc754;
+    color: #babdb9;
 }
 
 .portfolio-hero {
@@ -943,8 +943,33 @@ html, body {
     background: url(../img/blog-hero.jpg) no-repeat center / cover;     
 }
 
+.index-hero {
+    background: url(../img/iniciofndo.jpg) no-repeat center / cover;     
+}
+
+.empresa-hero {
+    background: url(../img/fondoempressaa.jpg) no-repeat center / cover;     
+}
+.beneficios-hero {
+    background: url(../img/sentfond.jpg) no-repeat center / cover;     
+}
 .contact-hero {
     background: url(../img/contactooofondo.jpg) no-repeat center / cover;     
+}
+.servicefac-hero {
+    background: url(../img/facfond.jpg) no-repeat center / cover;     
+}
+.servicecon-hero {
+    background: url(../img/fondom.jpg) no-repeat center / cover;     
+}
+.serviceban-hero {
+    background: url(../img/beneficiosfondo.jpg) no-repeat center / cover;     
+}
+.servicesen-hero {
+    background: url(../img/bancainvfondo.jpg) no-repeat center / cover;     
+}
+.serviceclick-hero {
+    background: url(../img/pruebafondo.png) no-repeat center / cover;     
 }
 
 /* SITEMAIN
