@@ -908,8 +908,8 @@ html, body {
     bottom: 45px;
     height: 12px;
     width: 80px;
-    border-top: 5px solid #fff;
-    border-bottom: 3px solid #fff;
+    border-top: 5px solid #0a3e85;
+    border-bottom: 3px solid #0a3e85;
     transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
@@ -1000,7 +1000,7 @@ html, body {
     height: 2px;
     width:250px;
     margin: 0 auto;
-    background-color: #267df4;
+    background-color: #0a3e85;
 }
 
 /* Section: Features */
