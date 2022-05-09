@@ -73,7 +73,7 @@ h1,h2,h4,h5 {
 }
 
 h3{
-    color: black;
+    color: whitesmoke;
 }
 
 p + p {
@@ -103,7 +103,7 @@ p + p {
 }
 
 .btn-fill {
-    background-color: #267df4;
+    background-color: #0a3e85;
 }
 
 
@@ -121,7 +121,7 @@ p + p {
 button.btn:hover,
 .btn:focus,
 button.btn:focus {
-    background-color: #26272d;
+    background-color: #267df4;
     color: #fff;
 }
 
@@ -1144,7 +1144,7 @@ html, body {
 /* FOOTER
 ================================================== */
 .site-footer {
-    background-color: rgb(245, 245, 248);
+    background-color: #071021;
 }
 
 .site-footer .site-title {
@@ -1196,7 +1196,7 @@ html, body {
 .list-unstyled li a,
 .list-unstyled li p {
     font-size: 16px;
-    color: black;
+    color: whitesmoke;
     font-weight: 300;
 }
 
@@ -1272,7 +1272,7 @@ a.linkedin-bg:hover {
     font-size: 9px;
     font-weight: 400;
     text-transform: uppercase;
-    color: black;
+    color: whitesmoke;
 }
 
 .copyright p + p {
