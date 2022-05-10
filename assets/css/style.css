@@ -991,6 +991,24 @@ html, body {
     padding-bottom: 40px;
 }
 
+.heading-separatorind{
+    position: relative;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.heading-separatorind:after {
+    content: "";
+    position: absolute;
+    bottom: 65px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    width:180px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
 .heading-separator:after {
     content: "";
     position: absolute;
