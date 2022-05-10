@@ -1,40 +1,53 @@
-/*
- * Theme Name: 
- * Theme URI: 
- * Author: Milan Savov, Nikola Kostov
- * Author URI/Mail: milan.savov@gmail.com, nikolakostov1991@gmail.com
- * Version: 1.0
- * */
-
- /* TABLE OF CONTENT 
-*
-* - CUSTOM RESETS
-    - Buttons
-    - Forms
-* - LAYOUT
-* - HEADER 
-    - Site Logo
-    - Navigation
-* - HERO (BANNER)
-* - HOMEPAGE SECTIONS
-    - Features 
-    - Services
-    - Map Feature 
-    - Portfolio
-    - Newsletter 
-* - FOOTER
-* - PAGES
-    - PORTFOLIO
-    - PORTFOLIO ITEM
-    - BLOG
-    - BLOG POST
-    - CONTACT
-*
-*/
 
 
 /* CUSTOM RESETS
 ================================================== */
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
 a {
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
@@ -62,6 +75,7 @@ p {
 
 h1 {
     font-size: 62px;
+    
 }
 
 h2 {
@@ -104,6 +118,7 @@ p + p {
 
 .btn-fill {
     background-color: #0a3e85;
+    animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
 
@@ -990,12 +1005,14 @@ html, body {
     position: relative;
     margin: 0;
     padding-bottom: 40px;
+    animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
 .heading-separatorind{
     position: relative;
     margin: 0;
     padding-bottom: 40px;
+    animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
 .heading-separatorind:after {
